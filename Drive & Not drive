@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<" Enter your Age : ";
+    cin>>n;
+    if(n>=18) cout<<"You can drive";
+    else  cout<<"You can not drive";
+    
+}
