@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+ char ch='A';
+ cout<<(int)ch<<endl;
+ char x='Z';
+ cout<<(int)x<<endl;
+ char y='a';
+ cout<<(int)y<<endl;
+ char z ='z';
+ cout<<(int)z<<endl;
+ char m='0';
+ cout<<(int)m<<endl;
+ char k='9';
+ cout<<(int)k<<endl;
+ char s='+';
+ cout<<(int)s<<endl;
+ char g='^';
+ cout<<(int)g<<endl;
+ 
+ 
+}
