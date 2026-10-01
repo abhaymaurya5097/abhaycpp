@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int x, y, a, b;
+   cout<<"Enter a : ";
+   cin>>a;
+   cout<<"Enter b : ";
+   cin>>b;
+   x= a*a+b*b+a*b*2;
+   y= a*a+b*b-a*b*2;
+   cout<<"Answer (a+b) : ";
+   cout<<x<<endl;
+    cout<<"Answer (a-b) : ";
+    cout<<y<<endl;
+   
+}
