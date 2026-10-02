@@ -7,6 +7,6 @@ int main()
     cin>>sp;
     cout<<"Enter cost price : ";
     cin>>cp;
-    if (sp>cp) cout<<"profit : ";
-    if (sp<cp) cout<<"loss : ";
+    if (sp>cp) cout<<"profit : "<<sp-cp;
+    if (sp<cp) cout<<"loss : "<<cp-sp;
     if (sp==cp) cout<<"No profit and No loss : ";
