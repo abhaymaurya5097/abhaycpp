@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a; 
+    cout<<" Enter 1st digit number :";
+    cin>>a;
+    int b;
+    cout<<" Enter 2st digit number :";
+    cin>>b;
+  cout << "Answer : ";
+    cout<<a+b;
+     cout<<a-b;
+    return 0;
+}
